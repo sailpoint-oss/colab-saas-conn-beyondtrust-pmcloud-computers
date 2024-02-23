@@ -40,7 +40,7 @@ export const connector = async () => {
 
     try{
     return createConnector()
-        .stdTestConnection(async (context: Context, input: undefined, res: Response<StdTestConnectionOutput>) => {
+        .stdTestConnection(async (context: Context, input: any, res: Response<StdTestConnectionOutput>) => {
             logger.info("Running test connection")
             res.send(await myClient.testConnection())
         })
