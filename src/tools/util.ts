@@ -1,7 +1,6 @@
 import { AttributeChange, ConnectorError, StdAccountCreateInput, StdAccountCreateOutput, StdEntitlementListOutput } from "@sailpoint/connector-sdk"
 import { Group } from "../model/group"
 import { User } from "../model/user"
-import { Container } from "../model/container"
 
 export class Util {
   
