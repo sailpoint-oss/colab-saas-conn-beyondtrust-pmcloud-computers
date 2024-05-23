@@ -319,12 +319,12 @@
 		},
 		{
 			"key": "client_id",
-			"value": "036c9255123456789694567009",
+			"value": "",
 			"type": "string"
 		},
 		{
 			"key": "client_secret",
-			"value": "parza7Hlm/SrpsKzg8abcdefghFegK2#12398=",
+			"value": "",
 			"type": "string"
 		}
 	]
